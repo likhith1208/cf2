@@ -24,5 +24,5 @@ Resources:
             Projection:
               ProjectionType: "ALL"
         BillingMode: "PAY_PER_REQUEST"
-        TableName: "report-revamp-users"
+        TableName: "report-revamp-users-demo-cf"
 
