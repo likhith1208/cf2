@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'AWS Lambda Function'
+
+Resources:
+  ReportRevampS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: report-unsubscription-webpage-demo
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: ObjectWriter
+          
