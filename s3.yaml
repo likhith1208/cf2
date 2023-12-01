@@ -5,7 +5,7 @@ Resources:
   ReportRevampS3:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: report-unsubscription-webpage-demo
+      BucketName: report-unsubscription-webpage-demo-staging-123
       PublicAccessBlockConfiguration:
         BlockPublicAcls: false
       OwnershipControls:
